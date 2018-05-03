@@ -4,7 +4,7 @@ Scripts used for analysis of data in manuscript under revision at Nature Communi
 
 # Scripts description
 
-seurat_v1.R - initialize seurat object from 10X Genomics cellranger outputs. Used for v1 datasets.
+seurat_v1.R - initialize seurat object from 10X Genomics cellranger outputs. Used for v1 datasets. <br />
 seurat_v2.R - initialize seurat object from 10X Genomics cellranger outputs. Used for v2 datasets.
 seurat_object_analysis_v1_and_v2.R - downstream analysis for seurat object created by seurat_v1.R or seurat_v2.R. 
 merge_clusters.R - merge clusters that do not meet gene threshold. Used for both v1 and b2 datasets.
