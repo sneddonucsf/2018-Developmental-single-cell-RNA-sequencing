@@ -5,6 +5,7 @@ Scripts used for analysis of data in manuscript under revision at Nature Communi
 # Scripts description
 
 seurat_v1.R - initialize seurat object from 10X Genomics cellranger outputs. Includes filtering, normalization, regression, variable gene identification, PCA analysis, clustering, tSNE visualization. Used for v1 datasets. <br /> <br />
+merge_seurat.R - merge two or more seurat objects into one seurat object. Perform linear regression to remove batch effects from separate objects. Used for v1 datasets. <br /> <br />
 seurat_v2.R - initialize seurat object from 10X Genomics cellranger outputs. Includes filtering, normalization, regression, variable gene identification, and PCA analysis. Used for v2 datasets. <br /><br />
 clustering_markers_v2.R - clustering and tSNE visualization for v2 datasets. <br /><br />
 seurat_object_analysis_v1_and_v2.R - downstream analysis and plotting functions for seurat object created by seurat_v1.R or seurat_v2.R. <br /><br />
