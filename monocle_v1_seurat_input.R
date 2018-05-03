@@ -14,9 +14,10 @@ load(filename)
 #rename seurat object
 my.pancreas=seurat_object
 
-# regress on nUMI and batch, but do not scale
-my.pancreas <- RegressOut(my.pancreas, latent.vars = c("nUMI","Labels"), do.scale=F)
+# regress on nUMI and batch, but do not scale or center
+my.pancreas <- RegressOut(my.pancreas, latent.vars = c("nUMI","Labels"), do.scale=F,do.center=F)
 my.pancreas <- MeanVarPlot(my.pancreas, x.low.cutoff = 0.1)
+my.pancreas <- PCAFast(my.pancreas, pcs.compute=40)
 
 ####### Expression matrix #########
 
