@@ -11,4 +11,5 @@ clustering_markers_v2.R - clustering and tSNE visualization for v2 datasets. <br
 seurat_object_analysis_v1_and_v2.R - downstream analysis and plotting functions for seurat object created by seurat_v1.R or seurat_v2.R. <br /><br />
 merge_clusters.R - merge clusters that do not meet gene threshold. Used for both v1 and v2 datasets. <br /><br />
 monocle_v1_seurat_input.R - monocle script using seurat batch corrected values as input for v1 merged timecourse datasets. <br /><br />
+monocle_lineage_trace.R - monocle script using nUMI as input for v2 lineage traced dataset. <br /><br />
 monocle_object_analysis.R - downstream analysis for monocle object - BEAM and plotting. <br /><br />
