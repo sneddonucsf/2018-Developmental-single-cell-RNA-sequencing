@@ -13,3 +13,5 @@ merge_clusters.R - merge clusters that do not meet gene threshold. Used for both
 monocle_v1_seurat_input.R - monocle script using seurat batch corrected values as input for v1 merged timecourse datasets. <br /><br />
 monocle_lineage_trace.R - monocle script using nUMI as input for v2 lineage traced dataset. <br /><br />
 monocle_object_analysis.R - downstream analysis for monocle object - BEAM and plotting. <br /><br />
+CCA_merging_v2.R - script for merging v2 endocrine datasets with canonical correlation analysis and determining the number of CCs to include in downstream analysis. <br /><br />
+CCA_alignment_v2.R - script for downstream alignment, clustering, tSNE visualization, and differential gene expression analysis.<br /><br />
