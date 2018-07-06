@@ -49,7 +49,7 @@ merged_v2_endocrine_seur_ob. - E12.5, E14.5, E17.5 (aggregated) V2 Dataset. Only
 
 E14_fev_lineage_endocrine_seur_ob. - E14.5 Fev-Cre;mTmG lineage traced V2 Dataset. Only endocrine cells. Seurat object. Grouped by "res.1.4" in @meta.data slot. Corresponds to Fig. 6h. "GFP" and "GFP_Bi" in @meta.data refer to GFP counts and binary "yes" or "no" for cells with >0 GFP counts.<br /><br />
 
-Monocle objects - includes V1 seurat objects used for input (regression with no scaling) and resulting monocle object. <br /><br />
+Monocle objects - includes V1 seurat objects used for input (regression with no scaling) and resulting monocle object. For V2 Fev lineage traced dataset, same seurat object as listed above is used for input. <br /><br />
 
 merge_meso_vsm_seur_ob - E12.5, E14.5, E17.5 V1 Dataset. Subclustered mesenchymal dataset for mesothelial and VSM populations. Prepared for monocle input by regression and no scaling analysis. Input for monocle_v1_seurat_input.R. <br /><br />
 
