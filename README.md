@@ -10,7 +10,8 @@ seurat_v2.R - initialize seurat object from 10X Genomics cellranger outputs. Inc
 clustering_markers_v2.R - clustering and tSNE visualization for v2 datasets. <br /><br />
 seurat_object_analysis_v1_and_v2.R - downstream analysis and plotting functions for seurat object created by seurat_v1.R or seurat_v2.R. <br /><br />
 merge_clusters.R - merge clusters that do not meet gene threshold. Used for both v1 and v2 datasets. <br /><br />
-monocle_v1_seurat_input.R - monocle script using seurat batch corrected values as input for v1 merged timecourse datasets. <br /><br />
+prepare_for_monocle_v1.R - subcluster cells of interest and perform linear regression, but not scaling in order to input normalized, regressed values into monocle with monocle_seurat_input_v1.R
+monocle_seurat_input_v1.R - monocle script using seurat batch corrected values as input for v1 merged timecourse datasets. <br /><br />
 monocle_lineage_trace.R - monocle script using nUMI as input for v2 lineage traced dataset. <br /><br />
 monocle_object_analysis.R - downstream analysis for monocle object - BEAM and plotting. <br /><br />
 CCA_merging_v2.R - script for merging v2 endocrine datasets with canonical correlation analysis and determining the number of CCs to include in downstream analysis. <br /><br />
