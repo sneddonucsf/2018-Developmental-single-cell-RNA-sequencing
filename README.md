@@ -1,6 +1,6 @@
 # 2018-Developmental-single-cell-RNA-sequencing
 
-Scripts used for analysis of data in manuscript under revision at Nature Communications. "Lineage Dynamics of Pancreatic Development at Single-Cell Resolution." Byrnes L. & Wong D. et al.
+Scripts used for analysis of data in manuscript at Nature Communications. "Lineage Dynamics of Pancreatic Development at Single-Cell Resolution." Byrnes L. & Wong D. et al. https://www.nature.com/articles/s41467-018-06176-3. Nat Commun. 2018 Sep 25;9(1):3922. doi: 10.1038/s41467-018-06176-3.
 
 # Scripts description
 
